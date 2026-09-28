@@ -18,7 +18,7 @@ Missing index points produce an explicit failure. Re-uploading identical content
 ## Retrieval and grounded answers
 
 ```mermaid
-flowchart LR
+flowchart TD
     Q["Question + bounded follow-up context"] --> A["Allowed ready document IDs"]
     A --> V["Vector candidates: up to 20"]
     V --> R["78% vector + 22% lexical ranking"]

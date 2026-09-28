@@ -66,30 +66,22 @@ All roles can ask questions, request supported actions, generate their own repor
 ## System architecture
 
 ```mermaid
-flowchart LR
-    UI["Role-based browser workspace"] --> API["FastAPI: sessions and authorization"]
-    API --> ING["Admin ingestion: parse, chunk, version"]
-    ING --> EMB["Local nomic embeddings"]
-    EMB --> VEC[("Embedded Qdrant")]
-    ING --> SQL[("SQLite: evidence and workflow state")]
-    API --> RAG["Scoped retrieval and evidence validation"]
-    SQL --> RAG
-    VEC --> RAG
-    RAG <--> LLM["Local Qwen via Ollama"]
-    RAG --> ANSWER["Cited answer or abstention"]
-    API --> PLAN["Explicit action and structured tool plan"]
-    PLAN <--> LLM
-    PLAN --> POLICY["Tool, permission and risk checks"]
-    POLICY --> REVIEW["Independent approval when required"]
-    POLICY --> TOOLS["Local tickets and cited reports"]
-    REVIEW --> TOOLS
-    TOOLS --> SQL
-    SQL --> OBS["Insights, audit and evaluations"]
-    ANSWER --> UI
-    OBS --> UI
+flowchart TD
+    UI["Employee · Manager · Admin"] --> API["FastAPI: identity and permissions"]
+    API --> KNOW["Knowledge ingestion and scoped RAG"]
+    API --> AGENT["Tool plans and execution policy"]
+    KNOW --> MODEL["Local Ollama: Qwen + nomic"]
+    AGENT --> MODEL
+    KNOW --> DATA["SQLite evidence + Qdrant vectors"]
+    AGENT --> CONTROL["Independent approval when required"]
+    AGENT --> WORK["Local tickets, reports and saved workflows"]
+    CONTROL --> WORK
+    WORK --> SQL["SQLite state, decisions and audit"]
+    DATA --> REVIEW["Evidence inspection and quality review"]
+    SQL --> REVIEW
 ```
 
-SQLite is the authority for source text, access rules, and business state. Qdrant supplies similarity candidates; model output never authorizes a write. [Component explanations, trust boundaries and recovery](docs/ARCHITECTURE.md).
+This component map shows the knowledge and action paths; sensitive actions follow the approval branch before execution. SQLite is the authority for source text, access rules, and business state. Qdrant supplies similarity candidates; model output never authorizes a write. [Detailed architecture, trust boundaries and recovery](docs/ARCHITECTURE.md).
 
 ## RAG and agentic functionality
 
