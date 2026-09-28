@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0c1018">
+  <meta name="color-scheme" content="dark">
+  <title>Threadline: Enterprise Gen AI &amp; Agentic AI Platform</title>
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/app.css">
+  <link rel="stylesheet" href="/static/hero.css">
+  <script src="/static/hero.js" defer></script>
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+<svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-8 8H5l-3 2v-10a9 9 0 0 1 18 0Z"/><path d="M7 10h8M7 14h5"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 5c-3-2-6-2-9-1v15c3-1 6-1 9 1 3-2 6-2 9-1V4c-3-1-6-1-9 1Zm0 0v15"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="m7 10 5-5 5 5M12 5v14"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v3"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="4"/><path d="M7 3v4M17 3v4M3 11h18M8 15h2M14 15h2"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2 3 6v6c0 5 9 10 9 10s9-5 9-10V6l-9-4Z"/><path d="m8 12 3 3 5-6"/></symbol>
+  <symbol id="i-receipt" viewBox="0 0 24 24"><path d="M5 3v18l3-2 4 2 4-2 3 2V3l-3 2-4-2-4 2-3-2ZM9 9h6M9 13h6"/></symbol>
+  <symbol id="i-logout" viewBox="0 0 24 24"><path d="M9 4H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h4M9 12h12m-4-4 4 4-4 4"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="4"/><path d="M9 4v16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+  <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 8a8 8 0 1 0 0 8M20 3v5h-5"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6Zm0 0v6h6M8 13h8M8 17h5"/></symbol>
+</defs></svg>
+<div class="ambient" aria-hidden="true"></div>
+<section id="login-view" class="login-layout">
+  <header class="hero-nav"><a class="brand" href="/" aria-label="Threadline home"><span class="brand-mark thread-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M8 6v13a7 7 0 0 0 14 0V6M3 12h24M3 18h24"/></svg></span><span>threadline<span class="brand-period">.</span></span></a><div class="hero-nav-right"><span class="hero-local"><span class="status-dot"></span> Local by design</span><a href="#workspace-signin" class="hero-nav-link">Enter workspace <span aria-hidden="true">↗</span></a></div></header>
+  <div class="login-story">
+    <div class="login-story-content"><span class="eyebrow"><span class="hero-eyebrow-line"></span> YOUR ENTERPRISE KNOWLEDGE, CONNECTED</span><h1>Threadline: <span class="hero-platform-name">Enterprise Gen AI &amp; Agentic AI Platform</span></h1><p class="hero-description">Local intelligence. Traceable answers. Actions you control.</p></div>
+    <div class="thread-demo" id="thread-demo" data-scene="answer" aria-label="Interactive product walkthrough">
+      <div class="demo-topline"><span><span class="demo-spark" aria-hidden="true">✳</span> Follow the thread</span><span class="demo-label">ILLUSTRATIVE WALKTHROUGH</span></div>
+      <div class="demo-scenarios" role="group" aria-label="Choose a walkthrough"><button type="button" id="demo-answer" aria-pressed="true">Find an answer</button><button type="button" id="demo-report" aria-pressed="false">Draft a briefing</button><button type="button" id="demo-action" aria-pressed="false">Request access</button></div>
+      <div class="demo-stage" id="demo-stage" aria-live="polite" aria-atomic="true">
+        <div class="demo-question"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg><span id="demo-question">How much annual leave do I receive?</span><span class="demo-enter" aria-hidden="true">↵</span></div>
+        <div class="thread-canvas">
+          <svg class="thread-wire" viewBox="0 0 600 190" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="thread-gradient"><stop stop-color="#86b8eb"/><stop offset=".5" stop-color="#b9a3f1"/><stop offset="1" stop-color="#8bd5c5"/></linearGradient></defs><path class="wire-base" d="M210 85 C260 85 255 125 300 125 S340 85 390 85"/><path class="wire-flow" d="M210 85 C260 85 255 125 300 125 S340 85 390 85"/></svg>
+          <div class="demo-source"><div class="demo-card-label"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg><span id="demo-source-label">YOUR SOURCE</span><span class="demo-card-dot"></span></div><strong id="demo-source-title">Annual leave policy</strong><p id="demo-source-text">“Permanent employees receive 25 working days of annual leave per calendar year.”</p><span class="demo-source-ref" id="demo-source-ref">annual_leave.md · Paragraph 2</span></div>
+          <div class="thread-core" aria-hidden="true"><div class="core-ring"></div><svg viewBox="0 0 32 32"><path d="M8 6v13a7 7 0 0 0 14 0V6M3 12h24M3 18h24"/></svg></div>
+          <div class="demo-result"><div class="demo-card-label"><span class="demo-result-orbit" aria-hidden="true"></span><span id="demo-result-label">GROUNDED ANSWER</span></div><strong id="demo-result-title">Time off. Clearly defined.</strong><p id="demo-result-text">25 working days per calendar year, for permanent employees.</p><span class="demo-result-status" id="demo-result-status"><span aria-hidden="true">✓</span> Linked to the original passage</span></div>
+        </div>
+        <div class="demo-bottomline"><span id="demo-footnote">The source stays attached, so you can check the answer.</span><span class="demo-counter" id="demo-counter">01 / 03</span></div>
+      </div>
+    </div>
+    <div class="hero-principles"><span><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg> Local models</span><span><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg> Visible evidence</span><span><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg> Human oversight</span></div>
+  </div>
+  <div class="login-panel" id="workspace-signin"><div class="login-box">
+    <div class="login-emblem" aria-hidden="true"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg></div>
+    <span class="eyebrow">A CLEARER WAY TO WORK</span><h2>Pick up the thread.</h2><p class="muted">Your knowledge. Your next step.<br>One private workspace.</p>
+    <form id="login-form"><label for="username">Username</label><input id="username" name="username" autocomplete="username" required placeholder="Your demo username"><label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password" required placeholder="Enter your password"><button class="primary" id="login-button" type="submit">Sign in <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button><p id="login-error" class="error" role="alert"></p></form>
+    <p class="login-help">Use your account from <strong>demo-credentials.txt</strong> in the local EnterpriseCopilot folder.</p><div class="local-note"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg> Your documents stay on this device.</div>
+  </div></div>
+  <footer class="hero-footer"><span>BUILT FOR THE QUESTIONS THAT MOVE WORK FORWARD.</span><span>Meridian Telecom <span aria-hidden="true">/</span> Portfolio workspace</span></footer>
+</section>
+<div id="app-view" class="app-layout" hidden>
+  <button id="sidebar-scrim" class="sidebar-scrim" aria-label="Close navigation" tabindex="-1" hidden></button>
+  <aside class="sidebar" id="sidebar" aria-label="Workspace navigation">
+    <div class="sidebar-brand"><a class="brand" href="/" aria-label="Threadline home"><span class="brand-mark thread-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M8 6v13a7 7 0 0 0 14 0V6M3 12h24M3 18h24"/></svg></span><span>threadline<span class="brand-period">.</span></span></a><button id="close-menu" class="icon-button mobile-only" aria-label="Close navigation"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div>
+    <div class="workspace-name"><span class="workspace-symbol">M</span><div>Meridian Telecom<small>Private workspace <span>DEMO</span></small></div></div>
+    <nav aria-label="Main navigation"><button id="nav-chat" class="nav-item active" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg> Knowledge assistant</button><button id="nav-operations" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-receipt"/></svg> Operations</button><button id="nav-library" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg> Document library</button><button id="nav-insights" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg> Insights</button></nav>
+    <button id="new-chat" class="new-chat-button"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg> New conversation</button>
+    <div class="history-heading"><span>RECENTS</span><span class="history-line"></span></div>
+    <div id="conversation-list" class="conversation-list"></div>
+    <div class="sidebar-bottom"><div class="scope-note"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg><div>Just your knowledge.<p>Only the sources you can access.</p></div></div><div class="profile"><div class="avatar" id="avatar">A</div><div class="profile-info"><strong id="profile-name"></strong><small id="profile-role"></small></div><button id="logout" class="icon-button" title="Sign out" aria-label="Sign out"><svg class="icon" aria-hidden="true"><use href="#i-logout"/></svg></button></div></div>
+  </aside>
+  <main class="main" id="main-content">
+    <header class="topbar"><div class="page-heading"><button id="mobile-menu" class="icon-button mobile-only" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false"><svg class="icon" aria-hidden="true"><use href="#i-menu"/></svg></button><div><span class="breadcrumb">Your workspace</span><strong id="page-label">Knowledge assistant</strong></div></div><button id="model-status" class="status-badge" title="Refresh local model connection"><span class="status-dot"></span><span id="status-text">Checking models</span></button></header>
+    <div id="banner" role="alert" class="banner" hidden></div>
+    <section id="chat-view" class="chat-view" aria-label="Knowledge assistant">
+      <div class="chat-scroll" id="chat-scroll">
+        <div id="welcome" class="welcome">
+          <div class="welcome-heading"><div><span class="eyebrow">KNOWLEDGE WITH A WAY FORWARD</span><h1>Find the thread.</h1><p>Explore your documents. Follow the evidence.<br>Turn a clear answer into a considered next step.</p></div><div class="glass-emblem" aria-hidden="true"><div class="emblem-back"></div><div class="emblem-front"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg></div><span class="emblem-glint"></span></div></div>
+          <div class="welcome-trail"><div role="group" aria-label="Explore how Threadline works"><button type="button" id="trail-source" aria-pressed="true"><span>01</span> Your sources</button><span class="trail-link" aria-hidden="true"></span><button type="button" id="trail-answer" aria-pressed="false"><span>02</span> Clear answers</button><span class="trail-link" aria-hidden="true"></span><button type="button" id="trail-action" aria-pressed="false"><span>03</span> Considered actions</button></div><p id="trail-description" aria-live="polite">Start with your company's documents. Only sources you have permission to access reach the model.</p></div>
+          <div class="section-label"><span>A GOOD PLACE TO START</span><span>Made for your work</span></div>
+          <div class="suggestion-grid" id="knowledge-suggestions">
+            <button class="suggestion" data-question="How many days of annual leave do employees receive?"><span class="suggestion-icon blue"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg></span><span class="suggestion-copy"><strong>A little time away</strong><span>How many days of annual leave do I receive?</span></span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+            <button class="suggestion" data-question="How do I report a suspected phishing email?"><span class="suggestion-icon mint"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg></span><span class="suggestion-copy"><strong>Stay one step ahead</strong><span>How do I report a suspected phishing email?</span></span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+            <button class="suggestion" data-question="What is the meal reimbursement limit for domestic travel?"><span class="suggestion-icon peach"><svg class="icon" aria-hidden="true"><use href="#i-receipt"/></svg></span><span class="suggestion-copy"><strong>The finer details</strong><span>What is the meal reimbursement limit?</span></span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+          </div>
+          <div class="suggestion-grid" id="action-suggestions" hidden>
+            <button class="suggestion" data-mode="agent" data-question="Create a support ticket for my external monitor flickering during meetings."><span class="suggestion-icon blue"><svg class="icon" aria-hidden="true"><use href="#i-receipt"/></svg></span><span class="suggestion-copy"><strong>A little help at work</strong><span>Create a ticket for a flickering monitor</span></span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+            <button class="suggestion" data-mode="agent" data-question="Generate a report on annual leave entitlement, approval, and notice period."><span class="suggestion-icon mint"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg></span><span class="suggestion-copy"><strong>Clarity, ready to share</strong><span>Save a cited annual leave briefing</span></span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+            <button class="suggestion" data-mode="agent" data-question="Request access to the network planning workspace for my current project."><span class="suggestion-icon peach"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg></span><span class="suggestion-copy"><strong>The right next step</strong><span>Ask a reviewer about workspace access</span></span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+          </div>
+          <div class="knowledge-strip"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg><span id="document-count">Loading your library</span><span class="strip-separator">·</span><span>Always linked to sources</span></div>
+        </div>
+        <div id="messages" class="messages" aria-live="polite"></div>
+        <div id="thinking" class="thinking" role="status" hidden><span class="spinner"></span><span id="thinking-label">Finding the answer in your sources…</span></div>
+      </div>
+      <div class="composer-area"><div class="mode-row"><div class="segmented" role="group" aria-label="Assistant mode"><button id="mode-ask" class="selected" aria-pressed="true" type="button">Knowledge</button><button id="mode-agent" aria-pressed="false" type="button">Actions</button></div><span id="mode-note">Answers with evidence</span></div><form id="chat-form" class="composer"><label for="question" class="sr-only">Your question or action request</label><textarea id="question" rows="2" maxlength="3000" placeholder="What's on your mind?" required></textarea><div class="composer-bottom"><span><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg> On-device intelligence <span class="composer-divider">/</span><span class="composer-detail"> Grounded in your documents</span></span><button id="send" class="send-button" type="submit" aria-label="Send request"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button></div></form><p class="composer-note">Review the sources before acting. Local requests can take a few minutes.<span>↵ to send</span></p></div>
+    </section>
+    <section id="library-view" class="library-view" aria-label="Document library" hidden>
+      <div class="library-heading"><div><span class="eyebrow">COLLECTED. CONNECTED.</span><h1>Your library.</h1><p class="muted">A home for the knowledge behind every answer.</p></div><button id="refresh-library" class="secondary"><svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg> Refresh</button></div>
+      <div id="upload-panel" class="upload-panel" hidden><div class="upload-heading"><span class="upload-icon"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></span><div><h3>A little more knowledge.</h3><p>Add a PDF, DOCX, TXT or Markdown file. Up to 10 MB.</p></div></div><form id="upload-form"><div class="upload-grid"><label>Document<input id="upload-file" type="file" accept=".pdf,.docx,.txt,.md" required></label><label>Display title<input id="upload-title" maxlength="150" placeholder="Optional: use the filename"></label><label>Department<select id="upload-department"><option>All</option><option>HR</option><option>IT</option><option>Operations</option></select></label><label>Visibility<select id="upload-classification"><option value="internal">Internal</option><option value="leadership">Leadership</option></select></label><label class="replacement-field">Version replacement<select id="upload-replacement"><option value="">New document</option></select></label><button class="primary" id="upload-button" type="submit">Upload & index <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button></div><p id="upload-status" role="status" class="muted"></p></form></div>
+      <div class="section-label library-section-label"><span>AVAILABLE TO YOU</span><span id="library-total"></span></div><div id="library-list" class="library-list"></div>
+    </section>
+    <section id="operations-view" class="operations-view" aria-label="Operations" hidden>
+      <div class="library-heading"><div><span class="eyebrow">FROM ANSWER TO ACTION</span><h1>Work, in motion.</h1><p class="muted">Your requests. Their progress. A clear record.</p></div><button id="refresh-operations" class="secondary"><svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg> Refresh</button></div>
+      <div class="operations-summary" id="operations-summary" aria-label="Operation counts"></div>
+      <div class="operations-toolbar"><div class="segmented operation-tabs" role="group" aria-label="Operation category"><button id="ops-tickets" class="selected" aria-pressed="true">Tickets</button><button id="ops-approvals" aria-pressed="false">Approvals</button><button id="ops-reports" aria-pressed="false">Reports</button><button id="ops-workflows" aria-pressed="false">Activity</button></div><button id="start-action" class="secondary"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg> New action</button></div>
+      <p id="operations-scope" class="muted operations-scope"></p><div id="operations-list" class="operations-list" aria-live="polite"></div>
+      <p class="operations-footnote"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg> Local service desk · Access approvals create review tickets. They never change permissions.</p>
+    </section>
+    <section id="insights-view" class="insights-view" aria-label="Insights" hidden>
+      <div class="library-heading"><div><span class="eyebrow">A CLEARER PICTURE</span><h1>Confidence, in context.</h1><p class="muted">See how it works. Understand what it’s worth.</p></div><button id="refresh-insights" class="secondary">Refresh</button></div>
+      <div class="segmented insight-tabs" role="group" aria-label="Insight category"><button id="insight-overview" aria-pressed="true">Overview</button><button id="insight-quality" aria-pressed="false" hidden>Quality lab</button><button id="insight-prompts" aria-pressed="false" hidden>Prompts</button><button id="insight-business" aria-pressed="false">Business case</button></div>
+      <div id="insights-status" class="muted" role="status"></div>
+      <section id="insight-overview-panel">
+        <div class="insight-filters"><label>Time window<select id="insight-days"><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option></select></label><label id="insight-scope-label">View<select id="insight-scope"><option value="mine">My activity</option><option value="platform">Platform totals</option></select></label></div>
+        <div id="insight-metrics" class="metric-grid"></div><div id="insight-details" class="insight-grid"></div><div id="insight-events" class="insight-card"></div>
+      </section>
+      <section id="insight-quality-panel" hidden>
+        <div class="insight-card"><span class="eyebrow">LOCAL QUALITY LAB</span><h2>Test the answer. Read the evidence.</h2><p class="muted">A repeatable benchmark on three unchanged demo policies. Automated checks and human judgments stay separate. Each case may take several minutes; retry other model requests after the run finishes.</p><div class="quality-controls"><label>Benchmark<select id="evaluation-suite"><option value="quick">Quick check · 3 cases</option><option value="full">Full check · 8 cases</option></select></label><button id="start-evaluation" class="primary">Run benchmark</button><button id="cancel-evaluation" class="secondary" hidden>Stop after current case</button></div></div>
+        <div id="evaluation-history" class="evaluation-history"></div><div id="evaluation-results" aria-live="polite"></div>
+      </section>
+      <section id="insight-prompts-panel" hidden><div id="prompt-inventory"></div></section>
+      <section id="insight-business-panel" hidden>
+        <div class="insight-card"><span class="eyebrow">AN ILLUSTRATIVE BUSINESS CASE</span><h2>Make the assumptions visible.</h2><p class="muted">Explore capacity value from time saved. This is a planning scenario, not measured savings or a multi-user deployment commitment.</p><label>Scenario<select id="business-scenario"><option value="base">Base</option><option value="conservative">Conservative</option><option value="optimistic">Optimistic</option></select></label><form id="business-form"><div id="business-fields" class="business-fields"></div><button id="calculate-business" class="primary" type="submit">Recalculate scenario</button></form></div><div id="business-results" aria-live="polite"></div>
+      </section>
+    </section>
+  </main>
+</div>
+<dialog id="source-dialog" aria-labelledby="source-title"><div class="dialog-heading"><div><span class="eyebrow">STRAIGHT FROM THE SOURCE</span><h2 id="source-title"></h2><p id="source-meta" class="muted"></p></div><button id="close-source" class="icon-button" aria-label="Close document"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div><div id="source-content"></div></dialog>
+<dialog id="report-dialog" aria-labelledby="report-title"><div class="dialog-heading"><div><span class="eyebrow">YOUR SAVED BRIEFING</span><h2 id="report-title"></h2><p class="muted">Review this draft and its sources before sharing.</p></div><button id="close-report" class="icon-button" aria-label="Close report"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div><div id="report-content" class="report-content"></div><a id="report-download" class="secondary" download>Download Markdown</a></dialog>
+</body>
+</html>

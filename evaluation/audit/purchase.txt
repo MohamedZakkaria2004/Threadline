@@ -1,0 +1,1 @@
+CONTROLLED SYNTHETIC AUDIT POLICY. Meridian purchasing approvals: Purchases up to and including AED 5,000 require the line manager only. Purchases above AED 5,000 require both the line manager and Finance. These are fictional test rules, not real company policy.

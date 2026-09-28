@@ -1,0 +1,98 @@
+{
+  "at": "2026-09-27T16:45:56.563877+00:00",
+  "status": "PASS WITH ISSUES",
+  "ready_for_portfolio_demonstration": true,
+  "checks": {
+    "python_regressions": true,
+    "ui_state_regressions": true,
+    "gold_source_review": true,
+    "quality_cases_and_integration": true,
+    "storage_reconciliation": true,
+    "restoration": true,
+    "browser_observations": true,
+    "locked_dependencies_and_advisories": true,
+    "backend_ready_on_current_source": true,
+    "no_invented_human_signoff": true
+  },
+  "build": "9ca7a344b04ced13",
+  "health": {
+    "status": "ready",
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "embedding_model": "nomic-embed-text:latest",
+    "connected": true,
+    "missing": [],
+    "error": null,
+    "phase": 3,
+    "build": "9ca7a344b04ced13"
+  },
+  "python": {
+    "tests": 219,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "ui_state": {
+    "tests": 32,
+    "failures": 0,
+    "errors": 0
+  },
+  "gold": {
+    "gold_total": 21,
+    "gold_passed": 21,
+    "gold_failed": 0,
+    "additional_report_checks": {
+      "report_expected_source": true
+    },
+    "restart_preserved_counts": true,
+    "model_identity_unchanged": true,
+    "prompts_unchanged": true
+  },
+  "metrics": {
+    "rag_cases": 16,
+    "agent_cases": 5,
+    "answerable_rag_cases": 11,
+    "answerable_correct": 11,
+    "answered_rag_cases": 11,
+    "factually_correct_answered": 11,
+    "negative_cases": 5,
+    "correct_negative_behavior": 5,
+    "retrieval_expected_evidence_hits": 11,
+    "retrieval_denominator": 11,
+    "citations": 12,
+    "citations_traceable_to_original": 12,
+    "rag_p50_seconds": 65.96,
+    "rag_p95_seconds": 142.88,
+    "all_cases_p50_seconds": 62.54,
+    "all_cases_p95_seconds": 142.88,
+    "repeat_pair_both_correct": true,
+    "repeat_pair_exact_text_match": true,
+    "hosted_model_api_cost_usd": 0
+  },
+  "quality": {
+    "total": 8,
+    "finished": 8,
+    "passed": 8,
+    "failed": 0,
+    "semantic_checked": 8,
+    "quality_gate": "needs_human_review",
+    "automated_pass_percent": 100.0,
+    "human_reviewed": 0,
+    "human_correct": 0,
+    "human_incorrect": 0,
+    "human_uncertain": 0,
+    "human_incorrect_percent": null,
+    "p50_seconds": 116.76,
+    "p95_seconds": 147.66
+  },
+  "quality_integration_passed": 18,
+  "storage_passed": 19,
+  "recovery_passed": 12,
+  "browser_passed": 12,
+  "remaining": [
+    "Slow CPU inference and host resource/process lifetime concerns; run a supervised local demo with adequate free RAM.",
+    "Small fixed corpus, narrow conflict/clarification guards and same-model semantic judgment; independent human domain review remains pending.",
+    "Local demo identity, plaintext storage, single-process databases and no external service integrations are portfolio boundaries, not production certification.",
+    "One test-client deprecation warning; no runtime dependency incompatibility or returned OSV advisory."
+  ],
+  "evidence_note": "Gold acceptance combines the preserved full run and a focused post-fix rerun; browser checks are explicit observations. Counts describe separate suites and should not be treated as independent statistical samples."
+}

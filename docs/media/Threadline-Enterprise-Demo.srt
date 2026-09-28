@@ -1,0 +1,131 @@
+1
+00:00:00,250 --> 00:00:03,891
+Threadline. Enterprise Gen AI and agentic AI.
+
+2
+00:00:04,500 --> 00:00:07,736
+Trusted knowledge. Governed actions. Better decisions.
+
+3
+00:00:08,300 --> 00:00:11,903
+Admins control the knowledge foundation and platform oversight.
+
+4
+00:00:13,500 --> 00:00:17,757
+Upload a verified document, define its audience, and index it locally.
+
+5
+00:00:20,000 --> 00:00:23,074
+Teams work from shared knowledge with controlled access.
+
+6
+00:00:26,400 --> 00:00:30,286
+Managers turn authorized information into decision support.
+
+7
+00:00:31,400 --> 00:00:34,485
+An Operations manager checks the leadership reserve.
+
+8
+00:00:35,500 --> 00:00:40,525
+Retrieval brings back the permitted policy, with a citation to the original evidence.
+
+9
+00:00:44,400 --> 00:00:48,168
+Generate a source-backed briefing to support planning and review.
+
+10
+00:00:51,500 --> 00:00:53,661
+The report can be downloaded and shared.
+
+11
+00:00:57,300 --> 00:01:00,815
+Employees get a workspace for everyday knowledge and requests.
+
+12
+00:01:02,400 --> 00:01:03,972
+Ask about annual leave.
+
+13
+00:01:05,200 --> 00:01:09,490
+RAG retrieves the policy and returns twenty-five working days.
+
+14
+00:01:10,400 --> 00:01:13,847
+Open the citation to verify the original passage.
+
+15
+00:01:15,200 --> 00:01:17,978
+Employees can check the evidence before acting.
+
+16
+00:01:20,400 --> 00:01:24,347
+The same leadership question now returns insufficient evidence.
+
+17
+00:01:25,100 --> 00:01:28,710
+Restricted documents stay outside the employee's knowledge scope.
+
+18
+00:01:30,400 --> 00:01:32,397
+Now request workspace access.
+
+19
+00:01:33,300 --> 00:01:37,933
+The agent selects a tool, records its steps, and pauses for human approval.
+
+20
+00:01:40,300 --> 00:01:42,577
+Work continues through a saved workflow.
+
+21
+00:01:45,400 --> 00:01:49,583
+An administrator reviews the exact request and records the decision.
+
+22
+00:01:52,100 --> 00:01:54,411
+Approval creates an access-review ticket.
+
+23
+00:01:56,300 --> 00:01:59,461
+It does not grant access or change the employee's role.
+
+24
+00:02:03,400 --> 00:02:07,669
+Back in the saved conversation, the employee sees the completed workflow.
+
+25
+00:02:09,100 --> 00:02:11,002
+The ticket moves to In Progress.
+
+26
+00:02:13,500 --> 00:02:18,487
+Administrators monitor activity, response time, outcomes, and audit events.
+
+27
+00:02:20,300 --> 00:02:24,025
+Automated evaluations compare answers with expected evidence.
+
+28
+00:02:24,200 --> 00:02:26,903
+Human review remains a separate requirement.
+
+29
+00:02:28,600 --> 00:02:30,909
+Prompt versions make changes traceable.
+
+30
+00:02:33,400 --> 00:02:37,381
+Explore adoption, operating cost, and expected business value.
+
+31
+00:02:38,200 --> 00:02:41,062
+These are planning estimates, not measured savings.
+
+32
+00:02:43,300 --> 00:02:47,453
+Threadline. Enterprise knowledge, governed automation, and decision support.
+
+33
+00:02:47,800 --> 00:02:49,352
+Built with local AI.

@@ -1,0 +1,12 @@
+# Preserve audited source/prompt bytes, including Windows line endings.
+* -text whitespace=trailing-space,space-before-tab,cr-at-eol
+# Preserve the exact source/evidence bytes referenced by recorded SHA-256 values.
+evaluation/audit/* -text whitespace=trailing-space,space-before-tab,cr-at-eol
+docs/evidence/*.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+# Keep the upstream license as received, including its existing trailing space.
+app/static/fonts/OFL-Manrope.txt -whitespace
+*.pdf binary
+*.ttf binary
+*.jpg binary
+*.png binary
+*.srt text eol=lf

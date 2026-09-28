@@ -1,0 +1,80 @@
+[
+  {
+    "filename": "annual_leave.md",
+    "title": "Annual leave policy",
+    "department": "All",
+    "classification": "internal"
+  },
+  {
+    "filename": "travel_expenses.md",
+    "title": "Domestic travel and expenses",
+    "department": "All",
+    "classification": "internal"
+  },
+  {
+    "filename": "security_awareness.md",
+    "title": "Reporting phishing and security concerns",
+    "department": "All",
+    "classification": "internal"
+  },
+  {
+    "filename": "remote_work.md",
+    "title": "Remote work policy",
+    "department": "All",
+    "classification": "internal"
+  },
+  {
+    "filename": "procurement.md",
+    "title": "Purchase request procedure",
+    "department": "All",
+    "classification": "internal"
+  },
+  {
+    "filename": "it_passwords.md",
+    "title": "IT account and password standard",
+    "department": "IT",
+    "classification": "internal"
+  },
+  {
+    "filename": "it_devices.md",
+    "title": "IT device replacement procedure",
+    "department": "IT",
+    "classification": "internal"
+  },
+  {
+    "filename": "hr_onboarding.md",
+    "title": "HR onboarding checklist",
+    "department": "HR",
+    "classification": "internal"
+  },
+  {
+    "filename": "hr_records.md",
+    "title": "HR personnel records handling",
+    "department": "HR",
+    "classification": "internal"
+  },
+  {
+    "filename": "operations_incidents.md",
+    "title": "Network incident response",
+    "department": "Operations",
+    "classification": "internal"
+  },
+  {
+    "filename": "operations_changes.md",
+    "title": "Planned network change procedure",
+    "department": "Operations",
+    "classification": "internal"
+  },
+  {
+    "filename": "leadership_reserve.md",
+    "title": "Operations leadership contingency reserve",
+    "department": "Operations",
+    "classification": "leadership"
+  },
+  {
+    "filename": "leadership_bonus.md",
+    "title": "Leadership discretionary bonus review",
+    "department": "All",
+    "classification": "leadership"
+  }
+]

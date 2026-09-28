@@ -1,0 +1,39 @@
+{
+  "at": "2026-09-28T04:37:27.571097+00:00",
+  "scope": "Documentation and repository publication; actual application code unchanged during publication work.",
+  "python": {
+    "passed": 230,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 289.095,
+    "model": "deterministic double; actual temporary SQLite and Qdrant",
+    "warning": "Existing Starlette TestClient httpx deprecation"
+  },
+  "ui": {
+    "passed": 32,
+    "failed": 0,
+    "scope": "Node synthetic DOM/state tests, not full browser coverage"
+  },
+  "dependency_review": {
+    "packages": 34,
+    "lock_matches": true,
+    "advisory_lookup_completed": true,
+    "advisories": 0,
+    "source": "https://api.osv.dev/v1/querybatch",
+    "checked_at": "2026-09-28T04:23:07.701705+00:00",
+    "limitation": "Point-in-time public advisory lookup; absence of known advisories is not proof of security."
+  },
+  "demo": {
+    "duration_seconds": 170,
+    "verified_checks": 38,
+    "failed_checks": 0,
+    "actual_model_quick_cases": 3,
+    "automated_passed": 3,
+    "human_reviews": 0,
+    "media_sha256": "5d44eab0e05a9be4f81f3f982b25f6a1d511ea5a5a0b92e0e78e0ccb883f14b9",
+    "scope": "Fresh prior video production; not a new full-corpus evaluation"
+  },
+  "historical_gold": "21 accepted cases from 27 September full run plus explicit focused rerun; unchanged retained evidence, not rerun for documentation publication.",
+  "independent_human_policy_owner_signoff": false,
+  "publication_check": "Run separately on final working tree and staged contents before push; CI repeats from the published commit."
+}

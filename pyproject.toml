@@ -1,0 +1,16 @@
+[project]
+name = "enterprise-knowledge-copilot"
+version = "0.3.1"
+description = "A local Enterprise Knowledge and Operations Copilot"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "fastapi>=0.115,<1", "uvicorn>=0.34,<1", "httpx>=0.28,<1",
+  "qdrant-client>=1.14,<2", "pypdf>=5,<7", "python-multipart>=0.0.20,<1"
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

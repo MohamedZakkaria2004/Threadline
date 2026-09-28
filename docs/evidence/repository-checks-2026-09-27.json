@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-27",
+  "overall_prototype_status": "PASS WITH ISSUES",
+  "ready_for_source_repository": true,
+  "ready_for_supervised_portfolio_demo": true,
+  "production_ready": false,
+  "published": false,
+  "tested_backend_build": "9ca7a344b04ced13",
+  "python_regression": {
+    "passed": 230,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 129.71,
+    "model": "deterministic double"
+  },
+  "ui_state": {
+    "passed": 32,
+    "failed": 0,
+    "skipped": 0
+  },
+  "fresh_live": {
+    "passed": 28,
+    "failed": 0,
+    "checks": {
+      "fresh_seed_cli": true,
+      "fresh_server_ready_and_build_matches": true,
+      "login_employee": true,
+      "login_hr": true,
+      "login_manager": true,
+      "login_admin": true,
+      "anonymous_protected": true,
+      "csrf_rejected": true,
+      "all_thirteen_policies_indexed": true,
+      "employee_admin_views_denied": true,
+      "phase3_and_active_v4_live_preconditions": true,
+      "local_asset_/": true,
+      "local_asset_/static/app.js": true,
+      "local_asset_/static/hero.js": true,
+      "local_asset_/static/hero.css": true,
+      "local_asset_/static/fonts/Manrope-Variable.ttf": true,
+      "rag_ground_truth_25_working_days": true,
+      "citation_matches_original_policy": true,
+      "conversation_saved_and_private": true,
+      "real_ticket_matches_requested_action": true,
+      "ticket_replay_has_no_duplicate": true,
+      "sensitive_action_pauses_without_ticket": true,
+      "self_approval_denied": true,
+      "independent_approval_creates_review_only": true,
+      "approval_replay_idempotent": true,
+      "unsupported_tool_refused_without_effect": true,
+      "restart_preserves_documents_workflows_and_login": true,
+      "no_running_or_unreviewed_work_left": true
+    },
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "embedding_model": "nomic-embed-text:latest",
+    "isolated_data": true,
+    "elapsed_seconds": {
+      "rag": 14.7,
+      "ticket": 13.11,
+      "access": 10.39,
+      "unsupported": 0.11
+    }
+  },
+  "dependencies": {
+    "pinned_versions": 34,
+    "uv_fresh_install": true,
+    "explicit_interpreter_pip_fresh_install": true,
+    "compatibility_passed": true,
+    "advisory_lookup_completed": true,
+    "advisories_returned": 0,
+    "checked_at": "2026-09-27T17:29:37.992164+00:00",
+    "source": "https://api.osv.dev/v1/querybatch"
+  },
+  "publication": {
+    "known_demo_password_matches": 0,
+    "ignore_probes_passed": 13,
+    "working_and_disposable_index_checked": true,
+    "prior_commits_present": false
+  },
+  "limitations": [
+    "Fresh source/environment/data on the same Windows host with already installed Ollama models; not a clean-OS installation.",
+    "Historical full 21-case gold and broad browser audit not repeated; see separately retained evidence.",
+    "Two preliminary private harness failures corrected before the final complete 28-check run.",
+    "CPU/memory constraints and earlier unexplained host process interruption remain documented.",
+    "Test-client deprecation warning; no independent human policy-owner signoff.",
+    "No project-wide license selected; production deployment requires separate work."
+  ]
+}

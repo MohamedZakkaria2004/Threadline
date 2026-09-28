@@ -1,0 +1,24 @@
+[
+  {
+    "filename": "nist-csf-1300.pdf",
+    "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1300.pdf",
+    "title": "NIST SP 1300: Small Business Quick-Start Guide",
+    "edition": "February 2024",
+    "sha256": "1e77c1bd63d1e15c48c870b7c17b7c9a2edf6bd5103b0940e72828515c9f1881",
+    "bytes": 934230,
+    "pages": 9,
+    "retrieved_at": "2026-09-27T14:27:35.177393+00:00",
+    "provenance": "Original official US government PDF; no content edits."
+  },
+  {
+    "filename": "nist-phishing.pdf",
+    "url": "https://www.nist.gov/document/sbccphishingpdf",
+    "title": "NIST Small Business Fact Sheet: Phishing",
+    "edition": "March 2024",
+    "sha256": "48f39cfbc0372a2146935d12ff76cb7c4903bfca664c5c5b961fdf7d60a67526",
+    "bytes": 419182,
+    "pages": 2,
+    "retrieved_at": "2026-09-27T14:27:36.884632+00:00",
+    "provenance": "Original official US government PDF; no content edits."
+  }
+]

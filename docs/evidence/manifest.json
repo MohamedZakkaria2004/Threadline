@@ -1,0 +1,22 @@
+[
+  {
+    "file": "e2e-audit-final-status.json",
+    "sha256": "450935cf2cd5ea06721c4c1f1585ad67e1eb9557dcc034df3f4659edb524f43f",
+    "provenance": "Byte-identical reviewed copy of the historical local artifact; no fields changed."
+  },
+  {
+    "file": "e2e-audit-acceptance.json",
+    "sha256": "10ae9975b678a9daa8f3aee913de0a41308758ba5cd293bbc90c59c6e7d9bdd8",
+    "provenance": "Byte-identical reviewed copy of the historical local artifact; no fields changed."
+  },
+  {
+    "file": "e2e-audit-source-review.json",
+    "sha256": "f01b76700d6db94518ec997d3c62a039d26f415a7cd1ddff67f0c3fc5fb4c56e",
+    "provenance": "Byte-identical reviewed copy of the historical local artifact; no fields changed."
+  },
+  {
+    "file": "repository-checks-2026-09-27.json",
+    "sha256": "1eac76e0c25b63800ee410fe86ef565b32522e8f46b28d9b2d63b9651142b207",
+    "provenance": "Publication aggregate of the fresh checks, with explicit scope and retained private raw results."
+  }
+]
