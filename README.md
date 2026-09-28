@@ -12,9 +12,9 @@ Threadline connects enterprise knowledge retrieval with controlled operational w
 
 ## See it working
 
-[![Watch Threadline: enterprise knowledge, automation and governance](docs/media/demo-poster.jpg)](https://github.com/MohamedZakkaria2004/Threadline/releases/download/v0.3.1/Threadline-Enterprise-Demo.mp4)
+[![Watch Threadline: enterprise knowledge, automation and governance](docs/media/demo-poster.jpg)](https://mohamedzakkaria2004.github.io/Threadline/)
 
-**[Watch / download the 2:50 demo](https://github.com/MohamedZakkaria2004/Threadline/releases/download/v0.3.1/Threadline-Enterprise-Demo.mp4)** · [Release and video](https://github.com/MohamedZakkaria2004/Threadline/releases/tag/v0.3.1) · [Captions](docs/media/Threadline-Enterprise-Demo.srt) · [Screenshots](docs/PROTOTYPE.md)
+**[Watch the 2:50 demo](https://mohamedzakkaria2004.github.io/Threadline/)** · [Download video](https://github.com/MohamedZakkaria2004/Threadline/releases/tag/v0.3.1) · [Captions](docs/media/Threadline-Enterprise-Demo.srt) · [Screenshots](docs/PROTOTYPE.md)
 
 Actual application footage: Admin → Manager → Employee → independent approval → tracked ticket. Clear narration, matching captions, no music. Model waits are shortened and labeled; the video is not a real-time latency demonstration.
 

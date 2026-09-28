@@ -1,6 +1,6 @@
 # Working prototype and demo
 
-**[Watch / download the 2:50 enterprise demo](https://github.com/MohamedZakkaria2004/Threadline/releases/download/v0.3.1/Threadline-Enterprise-Demo.mp4)** · [Release](https://github.com/MohamedZakkaria2004/Threadline/releases/tag/v0.3.1) · [Matching captions](media/Threadline-Enterprise-Demo.srt)
+**[Watch the 2:50 enterprise demo](https://mohamedzakkaria2004.github.io/Threadline/)** · [Release](https://github.com/MohamedZakkaria2004/Threadline/releases/tag/v0.3.1) · [Matching captions](media/Threadline-Enterprise-Demo.srt)
 
 1080p, clear synthetic English narration, burned-in matching captions, smooth transitions, no music. Recorded actual local application workflows on 28 September 2026. Model waits and accelerated interactions are labeled. Fictional company/personas and public or synthetic documents only; this is not real-time latency footage.
 

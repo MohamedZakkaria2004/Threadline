@@ -1,5 +1,11 @@
 # Changelog
 
+## Demo playback fix — 2026-09-28
+
+- Open the README preview in a browser video player on GitHub Pages.
+- Keep release downloads separate and verify media checksums during deployment.
+- Publish only static demo assets; the application backend remains local.
+
 ## v0.3.1 — Portfolio publication — 2026-09-28
 
 - Publish the working Threadline enterprise knowledge and operations prototype: scoped RAG, local tool planning, tickets, reports, independent approvals and persistent workflows.
